@@ -2,13 +2,14 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+body {
     background-color: hsl(30, 38%, 92%);
     width: 100vw;
     height: 100vh ; 
-    font-family: monospace;
-
 }
-
 *{
 box-sizing: border-box;
 }
@@ -26,7 +27,17 @@ main{
 width: 20rem;
 height: 30rem;
 }
-
+.perfume {
+    color:#a7a8b2;
+}
+.solar {
+    color: #b4b4be;
+}
+.pricing {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 .section1 img{
     width: 100%;
     height: 100%;
@@ -39,4 +50,29 @@ height: 30rem;
     background-color: white;
     padding: 2rem;
 border-radius: 0 5px 5px 0;
+}
+.firstprice {
+    color: #3a8268;
+    font-size: 2rem;
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #3a8268 ;
+    justify-content: center;
+    padding: 5px 0 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-wrapper img {
+    width: 1rem;
+    height: 2rem;
+}
+button {
+border: none;
+background-color: transparent;
+color: white;
 }
